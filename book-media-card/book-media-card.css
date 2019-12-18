@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+ body {
+	 background-color: #282c34;
+	 overflow: hidden;
+	 font-family: Montserrat;
+}
+ .main2 {
+	 position: absolute;
+	 left: 50%;
+	 top: 50%;
+	 margin-left: -200px;
+	 margin-top: -190px;
+	 background-color: none;
+	 width: 400px;
+	 height: 380px;
+	 border-radius: 20px;
+}
+ .card {
+	 position: absolute;
+	 left: 0;
+	 top: 0;
+	 left: 50%;
+	 top: 50%;
+	 margin-left: -160px;
+	 margin-top: -250px;
+	 width: 320px;
+	 height: 500px;
+	 transform-origin: 50% 100%;
+	 border-radius: 20px;
+	 box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+	 cursor: grab;
+	 user-select: none;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+ .media-item {
+	 position: absolute;
+	 width: 90%;
+	 height: 90%;
+	 cursor: grab;
+	 display: grid;
+	 grid-template-rows: 80% 20%;
+	 align-items: center;
+}
+ .media-pic {
+	 position: absolute;
+	 overflow: hidden;
+	 width: 100%;
+	 height: 100%;
+	 border-radius: 20px;
+	 cursor: grab;
+	 user-select: none;
+	 background-color: black;
+	 grid-row-start: 1;
+	 grid-row-end: 2;
+}
+ .pic {
+	 width: 100%;
+}
+ .media-title {
+	 grid-row-start: 2;
+	 margin-left: 10px;
+}
+ .no-confirmed {
+	 transform: translate(-350px, 150px) rotate(-45deg) !important;
+	 opacity: 0;
+	 transition: all 0.8s ease;
+}
+ .yes-confirmed {
+	 transform: translate(350px, 150px) rotate(45deg) !important;
+	 opacity: 0;
+	 transition: all 0.8s ease;
+}
+ .pink {
+	 background-color: #593c8f;
+}
+ .blue {
+	 background-color: #56b6c2;
+}
+ .yellow {
+	 background-color: #dadada;
+}
+ .choice {
+	 position: absolute;
+	 left: 0;
+	 top: 0;
+	 width: 100%;
+	 height: 100%;
+	 opacity: 0;
+	 border-radius: 20px;
+}
+ .accept {
+	 background-color: #98c379;
+}
+ .reject {
+	 background-color: #ff1654;
+}
+ .goback {
+	 transition: transform 0.5s;
+	 transform: translateX(0) !important;
+}
+ .b-si-grazie {
+	 position: relative;
+	 width: 50%;
+	 float: right;
+	 height: 100vh;
+	 font-size: 50px;
+	 color: #fff;
+	 background-color: rgba(255, 255, 255, 0);
+	 transition: all 0.5s ease;
+}
+ .b-no-grazie {
+	 position: relative;
+	 width: 50%;
+	 height: 100vh;
+	 font-size: 50px;
+	 color: #56b6c2;
+	 background-color: rgba(255, 255, 255, 0);
+	 transition: all 0.5s ease;
+}
+ .b-no-grazie .inner {
+	 position: absolute;
+	 right: 35%;
+	 top: 45%;
+	 font-size: 50px;
+	 color: #56b6c2;
+}
+ .b-si-grazie .inner {
+	 position: absolute;
+	 left: 35%;
+	 top: 45%;
+	 font-size: 50px;
+	 color: #56b6c2;
+}
+ .avatar {
+	 color: #fff;
+	 fill: currentColor;
+	 left: 50%;
+	 top: 50%;
+	 margin-left: -65px;
+	 margin-top: -65px;
+	 position: absolute;
+}
+ 

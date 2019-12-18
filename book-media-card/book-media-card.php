@@ -1,0 +1,117 @@
+
+	<div class="b-si-grazie">
+		<div class="inner">
+			<svg width="292" height="213" viewBox="0 0 292 213" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<g id="b-yes" filter="">
+					<path d="M108.233 151.476L43.5581 90.689L22 110.951L108.233 192L269 40.9171L257.875 31.1112L247.075 21L108.233 151.476Z" stroke="black" stroke-opacity="0.1" stroke-width="30"/>
+				</g>
+				<defs>
+					<filter id="filter0_i" x="0.0979004" y="0.434174" width="291.184" height="216.151" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+						<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+						<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+						<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+						<feOffset dy="4"/>
+						<feGaussianBlur stdDeviation="2"/>
+						<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+						<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+						<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+					</filter>
+				</defs>
+			</svg>
+		</div> 
+	</div>
+	<div class="b-no-grazie">
+		<div class="inner">
+			<svg width="215" height="215" viewBox="0 0 215 215" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<g id="b-no" filter="">
+				<path d="M193 39.2221L175.778 22L107.5 90.2779L39.2221 22L22 39.2221L90.2779 107.5L22 175.778L39.2221 193L107.5 124.722L175.778 193L193 175.778L124.722 107.5L193 39.2221Z" stroke="black" stroke-opacity="0.1" stroke-width="30"/>
+				</g>
+				<defs>
+					<filter id="filter0_i" x="0.786743" y="0.786804" width="213.426" height="217.426" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+						<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+						<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+						<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+						<feOffset dy="4"/>
+						<feGaussianBlur stdDeviation="2"/>
+						<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+						<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+						<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+					</filter>
+				</defs>
+			</svg>
+		</div> 
+	</div> 
+	<div>
+		<div class="card_box">
+
+			<div class="card yellow">
+				<div class="media-item">
+					<div class="media-pic">
+						<img src="../assets/images/interstellar.jpg" alt="interstellar" class="pic" srcset="">
+					</div>
+					<div class="media-title">
+						<h2>title</h2>
+					</div>
+				</div>
+				<div class="choice accept">
+					<div class="avatar"></div>
+				</div>
+				<div class="choice reject">
+					<div class="avatar"></div>
+				</div>
+			</div>
+			
+			<div class="card yellow">
+				<div class="media-item">
+					<div class="media-pic">
+						<img src="../assets/images/interstellar.jpg" alt="interstellar" class="pic" srcset="">
+					</div>
+					<div class="media-title">
+						<h2>title</h2>
+					</div>
+				</div>
+				<div class="choice accept">
+					<div class="avatar"></div>
+				</div>
+				<div class="choice reject">
+					<div class="avatar"></div>
+				</div>
+			</div>
+
+			<div class="card yellow">
+				<div class="media-item">
+					<div class="media-pic">
+						<img src="../assets/images/interstellar.jpg" alt="interstellar" class="pic" srcset="">
+					</div>
+					<div class="media-title">
+						<h2>title</h2>
+					</div>
+				</div>
+				<div class="choice accept">
+					<div class="avatar"></div>
+				</div>
+				<div class="choice reject">
+					<div class="avatar"></div>
+				</div>
+			</div>
+
+			<div class="card yellow">
+				<div class="media-item">
+					<div class="media-pic">
+						<img src="../assets/images/interstellar.jpg" alt="interstellar" class="pic" srcset="">
+					</div>
+					<div class="media-title">
+						<h2>title</h2>
+					</div>
+				</div>
+				<div class="choice accept">
+					<div class="avatar"></div>
+				</div>
+				<div class="choice reject">
+					<div class="avatar"></div>
+				</div>
+			</div>
+			
+		</div>
+	</div> 
+

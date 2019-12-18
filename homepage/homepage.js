@@ -43,3 +43,12 @@ var Expand = (function() {
   
   Expand.init();
   
+  $(document).on("click", "#movie-collection-icon", function(){
+		alert('cioa')
+	}
+  );
+
+  $(document).on("click", "#book-collection-icon", function(){
+	alert('csoa')
+}
+);

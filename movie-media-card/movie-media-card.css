@@ -65,12 +65,12 @@
  .no-confirmed {
 	 transform: translate(-350px, 150px) rotate(-45deg) !important;
 	 opacity: 0;
-	 transition: all 0.4s ease;
+	 transition: all 0.8s ease;
 }
  .yes-confirmed {
 	 transform: translate(350px, 150px) rotate(45deg) !important;
 	 opacity: 0;
-	 transition: all 0.4s ease;
+	 transition: all 0.8s ease;
 }
  .pink {
 	 background-color: #593c8f;
@@ -92,11 +92,9 @@
 }
  .accept {
 	 background-color: #98c379;
-	 transition: all 0.5s ease;
 }
  .reject {
 	 background-color: #ff1654;
-	 transition: all 0.5s ease;
 }
  .goback {
 	 transition: transform 0.5s;

@@ -149,3 +149,18 @@ h2 {
 p {
   margin: 0 0 16px;
 }
+.movie-collection-icon{
+  position: absolute;
+  left: 92.71%;
+  right: 3.01%;
+  top: 5.14%;
+  bottom: 86.24%;
+}
+
+.book-collection-icon{
+  position: absolute;
+  left: 3.12%;
+  right: 92.59%;
+  top: 4.14%;
+  bottom: 87.24%;
+}
