@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+  font-family: Montserrat;
+}
 .main {
   text-align: center;
   color: white;

@@ -19,7 +19,7 @@
 				<h1 class="side__title" data-name="Lorem">Find your next book</h1>
 			<div class="side__inner-media">
 				<div class="media-card">
-					<?php include('../book-media-card/book-media-card.php'); ?>
+					<?php include('../book-media-card/book-media-card.html'); ?>
 				</div>
 			</div>
 		  </div>
@@ -31,7 +31,7 @@
 			<div class="side__inner-media">
 				<!-- <a href="../media-collection/movies-collection.php">View your books</a> -->
 				<div class="media-card">
-					<?php include('../movie-media-card/movie-media-card.php'); ?>
+					<?php include('../movie-media-card/movie-media-card.html'); ?>
 				</div>
 			</div>
 		  </div>

@@ -71,7 +71,6 @@ $(document).ready(function() {
 	};
 	
   $(document).on( "mousedown touchstart", ".card:not(.disabled)", function(e){
-	 console.log(mdrag)
 	$card = $(this);
 	var startX =  e.pageX || e.originalEvent.touches[0].pageX;
 	
@@ -94,7 +93,6 @@ $(document).ready(function() {
 
 	$(".nie").hover(
 		function(){
-			console.log('ciao');
 			$("#m-no")[0].setAttribute('filter','url(#filter0_i)');
 		},
 		function(){
@@ -135,7 +133,6 @@ $(document).ready(function() {
 
 	  $(".nie").hover(
 		function(){
-			console.log('ciao');
 			$("#m-no")[0].setAttribute('filter','url(#filter0_i)');
 		},
 		function(){

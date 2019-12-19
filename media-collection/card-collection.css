@@ -6,6 +6,9 @@
 
 body{
 	background-color: #244F75;
+	overflow: hidden;
+	font-family: Montserrat;
+   
 }
 
 .collection {

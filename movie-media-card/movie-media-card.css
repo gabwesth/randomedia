@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
  body {
-	 background-color: #282c34;
 	 overflow: hidden;
 	 font-family: Montserrat;
 }
@@ -27,7 +26,7 @@
 	 height: 500px;
 	 transform-origin: 50% 100%;
 	 border-radius: 20px;
-	 box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+	 box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 	 cursor: grab;
 	 user-select: none;
 	 display: flex;
@@ -53,7 +52,7 @@
 	 user-select: none;
 	 background-color: black;
 	 grid-row-start: 1;
-	 grid-row-end: 2;
+	 grid-row-end: 3;
 }
  .pic {
 	 width: 100%;
@@ -72,14 +71,8 @@
 	 opacity: 0;
 	 transition: all 0.8s ease;
 }
- .pink {
-	 background-color: #593c8f;
-}
- .blue {
-	 background-color: #56b6c2;
-}
- .yellow {
-	 background-color: #dadada;
+ .movie {
+	 background-color: #244f75;
 }
  .choice {
 	 position: absolute;

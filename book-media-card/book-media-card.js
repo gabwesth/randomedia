@@ -71,7 +71,6 @@ $(document).ready(function() {
 	};
 	
   $(document).on( "mousedown touchstart", ".card:not(.disabled)", function(e){
-	 console.log(bdrag)
 	$card = $(this);
 	var startX =  e.pageX || e.originalEvent.touches[0].pageX;
 	
